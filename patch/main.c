@@ -722,7 +722,8 @@ void runEnableSingleplayerMusic(void)
 						else
 						{
 							b += 0x20;
-						}						AddedTracks++;
+						}
+						AddedTracks++;
 					}
 					while (*(u32*)(Songs + b) != 0);
 				}
